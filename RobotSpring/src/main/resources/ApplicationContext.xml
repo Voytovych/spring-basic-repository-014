@@ -4,4 +4,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
+	<bean id="t1000"
+		class="com.voytovych.basic.impls.robot.ModelT1000">
+	</bean>
 </beans>
