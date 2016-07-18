@@ -10,7 +10,6 @@
 		<config>src/main/resources/ApplicationContext.xml</config>
 	</configs>
 	<autoconfigs>
-		<config>java:com.example.RobotSpringApplication</config>
 	</autoconfigs>
 	<configSets>
 	</configSets>
