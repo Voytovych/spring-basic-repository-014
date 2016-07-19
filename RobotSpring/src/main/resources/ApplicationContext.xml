@@ -9,6 +9,11 @@
 	<constructor-arg ref="sonyHand"></constructor-arg>
 	<constructor-arg ref="sonyLeg"></constructor-arg>
 	<constructor-arg ref="sonyHead"></constructor-arg>
+
+<!-- 		<property name="hand" ref="toshibaHand"/> -->
+<!-- 		<property name="head" ref="toshibaHead"/> -->
+<!-- 		<property name="leg" ref="toshibaLeg"/> -->
+
 	</bean>
 	<bean id="sonyHand"
 		class="com.voytovych.basic.impls.sony.SonyHand">
