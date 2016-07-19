@@ -6,5 +6,26 @@
 
 	<bean id="t1000"
 		class="com.voytovych.basic.impls.robot.ModelT1000">
+	<constructor-arg ref="sonyHand"></constructor-arg>
+	<constructor-arg ref="sonyLeg"></constructor-arg>
+	<constructor-arg ref="sonyHead"></constructor-arg>
+	</bean>
+	<bean id="sonyHand"
+		class="com.voytovych.basic.impls.sony.SonyHand">
+	</bean>
+	<bean id="sonyHead"
+		class="com.voytovych.basic.impls.sony.SonyHead">
+	</bean>
+	<bean id="sonyLeg"
+		class="com.voytovych.basic.impls.sony.SonyLeg">
+	</bean>
+	<bean id="toshibaHand"
+		class="com.voytovych.basic.impls.toshiba.ToshibaHand">
+	</bean>
+	<bean id="toshibaHead"
+		class="com.voytovych.basic.impls.toshiba.ToshibaHead">
+	</bean>
+	<bean id="toshibaLeg"
+		class="com.voytovych.basic.impls.toshiba.ToshibaLeg">
 	</bean>
 </beans>
