@@ -10,7 +10,7 @@ default-lazy-init="true"
 	<import resource="db_context.xml" />
 
 	<bean id="t1000" class="com.voytovych.spring.impls.robot.ModelT1000"
-		p:hand-ref="sonyHand" p:leg-ref="sonyLeg" p:head-ref="sonyHead" depends-on="t1000Empty">
+		p:hand-ref="sonyHand" p:leg-ref="sonyLeg" p:head-ref="sonyHead" depends-on="databaseBean">
 
 		<constructor-arg value="silver" index="0" type="String" />
 		<constructor-arg value="2005" index="1" type="int" />
