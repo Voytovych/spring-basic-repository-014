@@ -25,7 +25,6 @@ default-lazy-init="true"
 		<constructor-arg ref="sonyLeg" index="1"/>
 		<constructor-arg ref="sonyHead" index="2"/>
 
-
 	</bean>
 
 
