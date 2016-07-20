@@ -29,7 +29,7 @@
 
 
 	<bean id="sonyHand" class="com.voytovych.spring.impls.sony.SonyHand" />
-	<bean id="sonyHead" class="com.voytovych.spring.impls.sony.SonyHead" />
+	<bean id="sonyHead" class="com.voytovych.spring.impls.sony.SonyHead" scope="prototype" />
 	<bean id="sonyLeg" class="com.voytovych.spring.impls.sony.SonyLeg" />
 
 	<bean id="toshibaHand" class="com.voytovych.spring.impls.toshiba.ToshibaHand" />

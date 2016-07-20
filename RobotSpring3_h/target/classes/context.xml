@@ -2,9 +2,6 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
-
-	default-init-method="initObject" default-destroy-method="destroyObject"
-
 	default-lazy-init="true">
 
 
@@ -29,12 +26,13 @@
 
 
 	<bean id="sonyHand" class="com.voytovych.spring.impls.sony.SonyHand" />
-	<bean id="sonyHead" class="com.voytovych.spring.impls.sony.SonyHead" scope="prototype" />
+	<bean id="sonyHead" class="com.voytovych.spring.impls.sony.SonyHead" />
 	<bean id="sonyLeg" class="com.voytovych.spring.impls.sony.SonyLeg" />
 
 	<bean id="toshibaHand" class="com.voytovych.spring.impls.toshiba.ToshibaHand" />
 	<bean id="toshibaHead" class="com.voytovych.spring.impls.toshiba.ToshibaHead" />
 	<bean id="toshibaLeg" class="com.voytovych.spring.impls.toshiba.ToshibaLeg" />
 
+	<bean class="com.voytovych.spring.main.MyBeanPostProcessor"/>
 
 </beans>
